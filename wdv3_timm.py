@@ -119,7 +119,7 @@ def get_tags(
 class ScriptOptions:
     model: str = field(positional=True)
     image_file: Path = field(positional=True)
-    gen_threshold: float = field(default=0.35)
+    gen_threshold: float = field(default=0.1)
     char_threshold: float = field(default=0.75)
     batch_size: int = field(default=8)
 
